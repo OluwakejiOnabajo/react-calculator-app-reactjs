@@ -3,8 +3,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import About from "./pages/about/About";
-import Calculator from "./pages/calculator/Calculator";
+import Calculator from "./Calculator";
 
 
 function MyRoutes() {
@@ -12,7 +11,6 @@ function MyRoutes() {
     <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<Calculator />} />
-      <Route exact path="/OluwakejiOnabajo" element={<About />} />
     </Routes>
   </BrowserRouter>
   );

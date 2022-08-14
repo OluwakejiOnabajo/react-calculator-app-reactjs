@@ -9,6 +9,7 @@
   border: 10px solid darkblue;
   background-color: darkblue;
   border-radius: 5px;
+  padding: 5px;
 }
 
 .keypad{
@@ -28,6 +29,8 @@ input[type='text'] {
   letter-spacing: 1px;
   text-align: right;
   border-radius: 5px;
+  margin-bottom: 8px;
+  justify-content: center;
 }
 
 #clear {
@@ -40,22 +43,8 @@ input[type='text'] {
   grid-row: 5;
 }
 
-.comment, .comment a{
-  font-size: 10px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.comment span{
-  color: red;
-}
-
-.comment a:hover{
-  color: cornflowerblue;
-}
-
 button{
-  margin: 5px;
+  margin: 3px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -72,4 +61,18 @@ button:active {
 
 .highlight {
   background-color: aqua;
+}
+
+.comment, .comment a{
+  font-size: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.comment span{
+  color: red;
+}
+
+.comment a:hover{
+  color: cornflowerblue;
 }
