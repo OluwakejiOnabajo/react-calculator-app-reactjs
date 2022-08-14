@@ -29,7 +29,9 @@ function App() {
 
   const calculate = () => {
     try {
-      setResult('= ' + eval(result).toString());
+      if(result != 'Error'){
+        setResult('= ' + eval(result).toString());        
+      }
     } catch (error) {
       setResult('Error');
     }
