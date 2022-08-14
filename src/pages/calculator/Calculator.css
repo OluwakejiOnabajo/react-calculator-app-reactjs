@@ -20,13 +20,14 @@
 input[type='text'] {
   height: 75px;
   width: 100%;
-  background-color: darkblue;
+  background-color: rgb(27, 27, 149);
   border: 0px;
   color: #fff;
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 1px;
   text-align: right;
+  border-radius: 5px;
 }
 
 #clear {
@@ -37,6 +38,20 @@ input[type='text'] {
 #result{
   grid-column: 3/5;
   grid-row: 5;
+}
+
+.comment, .comment a{
+  font-size: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.comment span{
+  color: red;
+}
+
+.comment a:hover{
+  color: cornflowerblue;
 }
 
 button{
