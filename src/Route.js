@@ -8,7 +8,7 @@ import Calculator from "./Calculator";
 
 function MyRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/react-calculator-app-reactjs' >
     <Routes>
       <Route exact path="/" element={<Calculator />} />
     </Routes>
