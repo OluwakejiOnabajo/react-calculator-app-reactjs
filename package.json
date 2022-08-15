@@ -2,7 +2,7 @@
   "name": "react-calculator-app-reactjs",
   "version": "0.1.0",
   "homepage": "https://onabajooluwakeji.github.io/react-calculator-app-reactjs",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
