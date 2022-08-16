@@ -5,10 +5,11 @@
 ### SAIL Tech Talent Project 1
 
 ### Description:
-In this project I built a fully functional basic calculator with basic mathematical functionalities using react js.
+This project is a fully functional basic calculator with basic mathematical functionalities using react js.
 
 ### Preview
 This project have been deployed and can be view [here - reactjs-math-calculator](https://reactjs-math-calculator.herokuapp.com/).
+
 
 # Getting Started with Create React App
 
