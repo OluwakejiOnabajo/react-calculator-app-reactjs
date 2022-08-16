@@ -66,7 +66,7 @@ const Calculator = () => {
       <button onClick={handleClick} value='.'>.</button>
       <button className='highlight' onClick={calculate} id='result' >=</button>
       </div>     
-      <p className='comment'>Made with <span>❣</span> by <Link to="/" onClick={() => { window.location.href= 'https://github.com/OnabajoOluwakeji'; }} >Oluwakeji Onabajo</Link></p>
+      <p className='comment'>Made with <span>❤</span> by <Link to="/" onClick={() => { window.location.href= 'https://github.com/OnabajoOluwakeji'; }} >Oluwakeji Onabajo</Link></p>
     </div>
 
   );

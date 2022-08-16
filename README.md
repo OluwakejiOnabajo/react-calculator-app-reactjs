@@ -1,3 +1,15 @@
+# Project Detail
+
+### Title: Simple Mathematics Calculator using React
+
+### SAIL Tech Talent Project 1
+
+### Description:
+In this project I built a fully functional basic calculator with basic mathematical functionalities using react js.
+
+### Preview
+This project have been deployed and can be view [here - reactjs-math-calculator](https://reactjs-math-calculator.herokuapp.com/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
