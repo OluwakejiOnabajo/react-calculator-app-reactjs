@@ -50,7 +50,7 @@ const Calculator = () => {
 
     <div className='container'>
       <form>
-        <input type='number' value={result} onChange={handleTyping} />
+        <input type='text' value={result} onChange={handleTyping} focus="true" />
       </form>
 
       <div className='keypad' >
