@@ -2,7 +2,7 @@
 
 ### Title: Simple Mathematics Calculator using React
 
-### SAIL Tech Talent Project 1
+### SAIL Tech Talent Project 2
 
 ### Description:
 This project is a fully functional basic calculator with basic mathematical functionalities using react js.

@@ -5,9 +5,11 @@ import { Link} from "react-router-dom";
 const Calculator = () => {
   const [result, setResult] = useState('');
 
+  // set values to be calculated
   const handleClick = (e) => {
     setResult(result + e.target.value);
     
+    // If current display is result, clear screen and start afresh
     if (result.slice(0, 1) === '=') {
       setResult(e.target.value);
     }else if(result === 'Error'){
@@ -15,20 +17,25 @@ const Calculator = () => {
     }
   }
 
+  // Get input on keyboard
   const handleTyping = (e) => {
     setResult(e.target.value);
   }
 
+  // Delete input
   const del = () => {
     setResult(result.slice(0, -1));
   }
 
+  // Clear screen
   const clear = () => {
     setResult('');
   }
 
+  // Get result
   const calculate = () => {
     try {
+      // If current display is not "error", then evaluate
       if(result !== 'Error'){
         // eslint-disable-next-line
         setResult('= ' + eval(result).toString());        
@@ -66,6 +73,7 @@ const Calculator = () => {
       <button onClick={handleClick} value='.'>.</button>
       <button className='highlight' onClick={calculate} id='result' >=</button>
       </div>     
+      {/* footer */}
       <p className='comment'>Made with <span>❤</span> by <Link to="/" onClick={() => { window.location.href= 'https://github.com/OnabajoOluwakeji'; }} >Oluwakeji Onabajo</Link></p>
     </div>
 
